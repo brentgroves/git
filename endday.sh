@@ -59,22 +59,22 @@ git add -A
 git commit -m "updated source code"
 git push -u origin main
 
-# cd ~/src/repsys/volumes/python/tutorials/flask_cert
-# echo "commit flask_cert"
-# git add -A 
-# git commit -m "updated source code"
-# git push -u origin main
+cd ~/src/repsys/volumes/python/tutorials/flask_cert
+echo "commit flask_cert"
+git add -A 
+git commit -m "updated source code"
+git push -u origin main
 
-# cd ~/src/repsys/volumes/pki
-# echo "commit pki"
-# git add -A 
-# git commit -m "updated source code"
-# git push -u origin main
+cd ~/src/repsys/volumes/pki
+echo "commit pki"
+git add -A 
+git commit -m "updated source code"
+git push -u origin main
 
-# cd ~/src/repsys
-# echo "commit repsys"
-# git add -A 
-# git commit -m "updated source code"
-# git push -u origin main
+cd ~/src/repsys
+echo "commit repsys"
+git add -A 
+git commit -m "updated source code"
+git push -u origin main
 
 popd
