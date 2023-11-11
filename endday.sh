@@ -53,6 +53,13 @@ git add -A
 git commit -m "updated source code"
 git push -u origin main
 
+cd ~/src/repsys/volumes/java/etlj
+echo "commit etlj"
+git add -A 
+git commit -m "updated source code"
+git push -u origin main
+
+
 cd ~/src/repsys/volumes/python/tbetl
 echo "commit tbetl"
 git add -A 
