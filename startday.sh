@@ -32,6 +32,10 @@ echo "pulling runner"
 cd ~/src/repsys/volumes/go/runner
 git pull
 
+echo "pulling etlj"
+cd ~/src/repsys/volumes/java/etlj
+git pull
+
 echo "pulling tbetl"
 cd ~/src/repsys/volumes/python/tbetl
 git pull
