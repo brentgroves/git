@@ -11,30 +11,6 @@ pushd .
 # In git diff you'll see the old and new commit pointers.
 # When you git commit in the main repository, it will update the pointer.
 
-# cd ~/src/repsys/volume/go/replib
-# echo "in replib"
-# git add -A 
-# git commit -m "updated source code"
-# git push -u origin main
-
-# cd ~/src/repsys/volume/go/runner
-# echo "in runner"
-# git add -A 
-# git commit -m "updated source code"
-# git push -u origin main
-
-# cd ~/src/repsys/volume/python/tutorials/flask_cert
-# echo "in flask_cert"
-# git add -A 
-# git commit -m "updated source code"
-# git push -u origin main
-
-# cd ~/src/repsys/volume/pki
-# echo "in pki"
-# git add -A 
-# git commit -m "updated source code"
-# git push -u origin main
-
 cd ~/src/repsys/git
 echo "commit git"
 git add -A 
@@ -53,16 +29,52 @@ git add -A
 git commit -m "updated source code"
 git push -u origin main
 
-cd ~/src/repsys/volumes/ansible
-echo "commit ansible"
+cd ~/src/repsys/volumes/ansible/rsapb
+echo "commit rsapb"
 git add -A 
 git commit -m "updated source code"
 git push -u origin main
 
-cd ~/src/repsys
-echo "in repsys"
+cd ~/src/repsys/volumes/bash/rsbsh
+echo "commit rsbsh"
 git add -A 
 git commit -m "updated source code"
 git push -u origin main
+
+# cd ~/src/repsys/volumes/go/replib
+# echo "commit replib"
+# git add -A 
+# git commit -m "updated source code"
+# git push -u origin main
+
+# cd ~/src/repsys/volumes/go/runner
+# echo "commit runner"
+# git add -A 
+# git commit -m "updated source code"
+# git push -u origin main
+
+# cd ~/src/repsys/volumes/python/tbetl
+# echo "commit tbetl"
+# git add -A 
+# git commit -m "updated source code"
+# git push -u origin main
+
+# cd ~/src/repsys/volumes/python/tutorials/flask_cert
+# echo "commit flask_cert"
+# git add -A 
+# git commit -m "updated source code"
+# git push -u origin main
+
+# cd ~/src/repsys/volumes/pki
+# echo "commit pki"
+# git add -A 
+# git commit -m "updated source code"
+# git push -u origin main
+
+# cd ~/src/repsys
+# echo "commit repsys"
+# git add -A 
+# git commit -m "updated source code"
+# git push -u origin main
 
 popd

@@ -14,16 +14,23 @@ cd ~src/repsys/projects
 git switch main
 cd ~src/repsys/status
 git switch main
-cd ~src/repsys/volumes/ansible
+cd ~src/repsys/volumes/ansible/rsapb
 git switch main
-
-cd ~/src/reports/volume/go/replib
+cd ~src/repsys/volumes/bash/rsbsh
 git switch main
-cd ~/src/reports/volume/go/runner
+cd ~/src/repsys/volumes/go/replib
 git switch main
-cd ~/src/reports/volume/python/tutorials/flask_cert
+cd ~/src/repsys/volumes/go/runner
 git switch main
-cd ~/src/reports/volume/pki
+cd ~/src/repsys/volumes/java/etlj
+git switch main
+cd ~src/repsys/volumes/pki
+git switch main
+cd ~/src/repsys/volumes/python/tbetl
+git switch main
+cd ~/src/repsys/volumes/python/tutorials/flask_cert
+git switch main
+cd ~/src/repsys/volumes/pki
 git switch main
 
 popd
