@@ -71,6 +71,18 @@ git add -A
 git commit -m "updated source code"
 git push -u origin main
 
+cd ~/src/repsys/volumes/sql/tbsql
+echo "commit tbsql"
+git add -A 
+git commit -m "updated source code"
+git push -u origin main
+
+cd ~/src/repsys/linux
+echo "commit linux"
+git add -A 
+git commit -m "updated source code"
+git push -u origin main
+
 cd ~/src/repsys
 echo "commit repsys"
 git add -A 

@@ -26,3 +26,8 @@ mkdir -p ~/src/repsys/volumes/python/tutorials
 git submodule add git@github.com:brentgroves/tbetl.git volumes/python/tbetl
 
 git submodule add git@github.com:brentgroves/flask_cert.git volumes/python/tutorials/flask_cert
+
+git submodule add git@github.com:brentgroves/tbsql.git volumes/sql/tbsql
+
+git submodule add git@github.com:brentgroves/linux.git
+
