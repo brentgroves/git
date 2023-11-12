@@ -1,8 +1,8 @@
 #!/bin/bash
 # https://gist.github.com/gitaarik/8735255
 pushd .
-cd ~
 rm -rf ~/dotfiles
+cd ~
 git clone https://github.com/brentgroves/dotfiles.git
 cd ~/src
 rm -rf ~/src/repsys
