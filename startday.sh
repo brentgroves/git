@@ -13,7 +13,7 @@ cd ~/src/repsys/projects
 git pull
 
 echo "pulling status"
-cd ~/src/repsys/projects
+cd ~/src/repsys/status
 git pull
 
 echo "pulling rsapb"
